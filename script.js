@@ -1,1 +1,1 @@
-console.log('Perfil animado cargado correctamente');
+
