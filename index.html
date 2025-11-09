@@ -221,7 +221,7 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #000;
+    background: transparent;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -231,10 +231,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   /* Neón blanco permanente */
+    /* Neón blanco permanente */
     box-shadow: 
-    0 0 10px rgba(255, 255, 255, 0.7),
-    inset 0 0 5px rgba(255, 255, 255, 0.3);
+        0 0 10px rgba(255, 255, 255, 0.7),
+        inset 0 0 5px rgba(255, 255, 255, 0.3);
     /* Latido infinito */
     animation: pulse 2s infinite ease-in-out;
     transition: all 0.3s;
@@ -245,31 +245,31 @@
     0% { 
         transform: scale(1);
         box-shadow: 
-            0 0 10px rgba(255, 0, 150, 0.7),
-            inset 0 0 5px rgba(255, 0, 150, 0.3);
+            0 0 10px rgba(255, 255, 255, 0.7),
+            inset 0 0 5px rgba(255, 255, 255, 0.3);
     }
     50% { 
         transform: scale(1.1);
         box-shadow: 
-            0 0 15px rgba(255, 0, 150, 0.9),
-            inset 0 0 10px rgba(255, 0, 150, 0.5);
+            0 0 15px rgba(255, 255, 255, 0.9),
+            inset 0 0 10px rgba(255, 255, 255, 0.5);
     }
     100% { 
         transform: scale(1);
         box-shadow: 
-            0 0 10px rgba(255, 0, 150, 0.7),
-            inset 0 0 5px rgba(255, 0, 150, 0.3);
+            0 0 10px rgba(255, 255, 255, 0.7),
+            inset 0 0 5px rgba(255, 255, 255, 0.3);
     }
 }
 
-/* Efecto al pasar el mouse (brillo intenso) */
+/* Efecto al pasar el mouse (brillo intenso blanco) */
 #music-toggle:hover {
     box-shadow: 
-        0 0 20px rgba(255, 0, 150, 1),
-        inset 0 0 10px rgba(255, 0, 150, 0.7);
+        0 0 20px rgba(255, 255, 255, 1),
+        inset 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
-/* Efecto al hacer clic (onda expansiva rosa) */
+/* Efecto al hacer clic (onda expansiva blanca) */
 #music-toggle:active {
     animation: pulse-click 0.5s;
 }
@@ -278,14 +278,14 @@
     0% { 
         transform: scale(0.9);
         box-shadow: 
-            0 0 5px rgba(255, 0, 150, 0.5),
-            inset 0 0 2px rgba(255, 0, 150, 0.2);
+            0 0 5px rgba(255, 255, 255, 0.5),
+            inset 0 0 2px rgba(255, 255, 255, 0.2);
     }
     50% { 
         transform: scale(1.15);
         box-shadow: 
-            0 0 25px rgba(255, 0, 150, 1),
-            inset 0 0 15px rgba(255, 0, 150, 0.8);
+            0 0 25px rgba(255, 255, 255, 1),
+            inset 0 0 15px rgba(255, 255, 255, 0.8);
     }
     100% { 
         transform: scale(1);
