@@ -3,35 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Valek Space</title>
+  <title>Liquid Text Animation</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <svg viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="80%">LIQUID</text>
+      </symbol>
 
-  <div class="card">
-	<div class="img">
-		<img src="https://hrishikesh214.github.io/Me/Media/r_dp.jpg" alt="PROFILE">
-	</div>
-	<div class="details">
-		<div class="name"><span class="highlightt">Hrishikesh</span> Vaze</div>
-		<div class="contact">
-			<a href="#"><i class="fab fa-github"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>
-		</div>
-	</div>
-	<div class="skills">
-		<span class="tall"><span class="highlight">C</span></span>
-		<span class="largee">C++</span>
-		<span class="wide"><span class="highlight">Javascript</span></span>
-		<span class="talle">HTML</span>
-		<span class="tall"><span class="highlight">PHP</span></span>
-		<span class="tall">CSS</span>
-		<span class="large"><span class="highlight">Reactjs</span></span>
-		<span class="wide">Python</span>
-	</div>
-</div>
-
+      <g class="g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+      </g>
+    </svg>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
