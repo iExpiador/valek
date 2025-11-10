@@ -334,10 +334,10 @@
         // Intentar autoplay (puede fallar)
         music.play().then(() => {
             isPlaying = true;
-            toggleBtn.textContent = '🔊';
+            toggleBtn.textContent = '❚❚';
         }).catch(() => {
             isPlaying = false;
-            toggleBtn.textContent = '🔇';
+            toggleBtn.textContent = '▶';
         });
 
         // Control manual
